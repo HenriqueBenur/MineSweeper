@@ -1,39 +1,48 @@
+.checked {
+    background-image: url('sources/shadowTile.png');
+}
+.bomb {
+    background-image: url('sources/tile.png');
+}
+.cheat {
+    background-image: url('sources/redTile.png');
+}
 .grid_ez {
     height: 400px;
     width: 320px;
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-image: url('sources/tile.png');
 }
 .grid_ez div {
     height: 40px;
     width: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .grid_nm {
     height: 720px;
     width: 560px;
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-image: url('sources/tile.png');
 }
 .grid_nm div {
     height: 40px;
     width: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .grid_hd {
     height: 960px;
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    background-color: grey;
+    background-image: url('sources/tile.png');
 }
 .grid_hd div {
     height: 40px;
     width: 40px;
-}
-.checked {
-    background-color: brown;
-}
-.bomb {
-    background-color: darkorange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
