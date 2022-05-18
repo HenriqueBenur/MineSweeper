@@ -10,12 +10,30 @@
 <body>
     <div>
         <center>
+            <h1>--Campo Minado--</h1>
+            <h2>Regras do Jogo:</h2>
+            <label>
+                O Campo Minado é um jogo aparentemente simples de memória e raciocínio.
+            </label>
+            <br>
+            <label>
+                O objetivo do Campo Minado é revelar os quadrados vazios e com números,
+            </label>
+            <br>
+            <label>
+                evitando aqueles que escondem bombas. A quantidade de bombas no cenário
+            </label>
+            <br>
+            <label>
+            varia dependendo da dificuldade:
+            </label>
+            <br>
             <select name="difficulty" id="difficulty_input">
                 <option value="0">fácil</option>
                 <option value="1">médio</option>
                 <option value="2">difícil</option>
             </select>
-            <button onclick="start_game()">start_game</button>
+            <button onclick="start_game()" id="start_button">Começar o Jogo</button>
         </center>
     </div>
 <script src="script.js"></script>
